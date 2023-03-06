@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="9.965">
+<testcase classname="Test login activity" name="User can login with valid data" time="3.143">
+<system-out><![CDATA[Given User has valid login data.............................................passed
+When User sends his login data..............................................passed
+Then login successfully.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test register activity" name="User can register with valid data" time="1.435">
+<system-out><![CDATA[Given User has valid register data..........................................passed
+When User sends his register data...........................................passed
+Then user register successfully.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test search on pet activity" name="User search on avaliable pets" time="2.142">
+<system-out><![CDATA[Given User search with available value......................................passed
+When User sends his seach on pet data.......................................passed
+Then display avaliable pets.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test search on pet activity" name="User search on pending pets" time="0.972">
+<system-out><![CDATA[Given User search with pending value........................................passed
+When User sends his seach on pending pet data...............................passed
+Then display pending pets...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test search on pet activity" name="User search on sold pet" time="1.008">
+<system-out><![CDATA[Given User search with sold value...........................................passed
+When User sends his seach on sold pet data..................................passed
+Then display sold pet.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test edit user data activity" name="User can update his data" time="0.856">
+<system-out><![CDATA[Given User add new data.....................................................passed
+When User sends his new data................................................passed
+Then user data updated  successfully........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
